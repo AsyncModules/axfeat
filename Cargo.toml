@@ -18,6 +18,8 @@ img = ["axruntime/img"]
 # Monolithic kernel
 monolithic = ["axruntime/monolithic", "axhal/monolithic", "dep:axprocess", "axnet/monolithic"]
 
+async = ["axprocess/async", "axtask/async"]
+
 # Multicore
 smp = ["axhal/smp", "axruntime/smp", "spinlock/smp"]
 
